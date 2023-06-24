@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+}
+
+.site-header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #282829;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  
+}
+
+.nav-link {
+  margin-right: 30px;
+  text-decoration: none;
+  font-family: 'Inter',"Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+}
+
+.nav-link:hover{
+  color: #F78B3B;
+}
+
+.nav-link:active{
+  color: rgba(247, 139, 59, 0.80);
+}
+.hero {
+  padding-top: 50px;
+  padding-bottom: 15px;
+ 
+}
+
+.hero-title-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  padding: 117px 249px;
+  text-align: center;
+  background-image: url("./images/beautiful-emerald-lake-yoho-national-park-british-columbia-canada_131985-177\ 1.png");
+  background-repeat: no-repeat;
+}
+
+.hero-title {
+  margin: 0;
+  font-family: 'Inter',"Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 88px;
+  line-height: 93px;
+  color: #fff;
+}
+
+.hero-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style: none;
+}
+
+.hero-item {
+  width: 393px;
+  margin-right: 30px;
+  text-align: center;
+}
+
+.item-right {
+  margin-right: 0;
+}
+
+.hero-img {
+  margin-bottom: 30px;
+}
+
+.item-title {
+  margin-bottom: 10px;
+  font-family: 'Inter',"Arial", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.item-text {
+  margin-bottom: 60px;
+  font-family: 'Inter',"Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  opacity: 0.6;
+}
+
+/* finish-hero */
+
+.unsplash {
+  padding-bottom: 58px;
+  text-align: center;
+}
+
+.unsplash-img {
+  margin-bottom: 43px;
+}
+
+.usnplash-content-wrapper {
+  width: 1098px;
+  margin: 0 auto;
+}
+
+.unsplash-time {
+  font-family: 'Open Sans',"Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 4px;
+}
+
+.unsplash-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: 'Open Sans',"Arial", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+}
+
+.unsplash-text {
+  font-family: 'Open Sans',"Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+/* START footer */
+.site-footer {
+  background-color: #282829;
+  padding-top: 81px;
+  padding-bottom: 62px;
+}
+
+.footer-list {
+  display: flex;
+  padding-left: 0;
+  margin: 0;
+  margin-bottom: 27px;
+  justify-content: center;
+  list-style: none;
+}
+
+.footer-link {
+  margin-right: 56px;
+  text-decoration: none;
+  font-family: 'Inter',"Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+}
+ .footer-link:hover{
+  color: #F00;
+ }
+ .footer-link:active{
+  color: rgba(255, 0, 0, 0.80);
+ }
+.social-list {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  margin-bottom: 28.6px;
+}
+
+.social-img {
+  vertical-align: middle;
+}
+
+.social-link {
+  margin-right: 26px;
+}
+
+.footer-text {
+  
+  font-family: 'Inter',"Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #FFFFFF;
+}
